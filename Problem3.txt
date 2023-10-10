@@ -1,0 +1,31 @@
+in this read me file i will be analyzing the actual runtime value For
+each method. for the sake of comparison i will be using the same n value
+across the methods
+
+trial 1, n = 2
+cubic = 1,484,544 ms
+exp = 31,344,263 ms
+constant = 1,162,511
+
+ even with small number as 2, we can see significant difference 
+ between exp and the others 
+
+ trial 2, n= 5
+ cubic = 11,352,943
+ exp = 35,819,772
+ constant = 951,459
+ here same thing happened like the previous one , but as expected the 
+ cubic one have now increased significantly from its previous trail 
+
+ trail 3 , n =50
+ cubic = 9,349,493,187 
+ exp =does n't seem like to finish till the heat death of the universe
+ constant = 1,162,820
+
+
+ from this we can see that for the exp the running time seems like 
+ to be infinity, which drives home the fact that exponential time 
+ complexity are the worst of all.
+ we can notice that the constant time doesn't show significant
+ difference.while on the contrary although better than the exp the 
+ cubic also increases significantly.
